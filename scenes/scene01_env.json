@@ -10,37 +10,7 @@
 			],
 			"rotation": [
 				45,
-				1300,
-				0
-			],
-			"speed": 60
-		},
-		{
-			"id": "camera.d2",
-			"type": "FreeCamera",
-			"position": [
-				760,
-				1000,
-				1000
-			],
-			"rotation": [
 				45,
-				220,
-				0
-			],
-			"speed": 60
-		},
-		{
-			"id": "camera.d3",
-			"type": "WebVRFreeCamera",
-			"position": [
-				760,
-				1000,
-				1000
-			],
-			"rotation": [
-				45,
-				220,
 				0
 			],
 			"speed": 60
@@ -82,8 +52,8 @@
         ],
         "groundTexture": "textures/concrete.jpg",
         "groundSize": [
-            1000,
-            1000,
+            2000,
+            2000,
             1
         ]
       }
