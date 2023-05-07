@@ -4,13 +4,13 @@
 			"id": "camera.d1",
 			"type": "FlyCamera",
 			"position": [
-				760,
+				1000,
 				1000,
 				1000
 			],
 			"rotation": [
 				45,
-				220,
+				1300,
 				0
 			],
 			"speed": 60
