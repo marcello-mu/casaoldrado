@@ -80,7 +80,7 @@
           0.3,
           0.5
         ],
-        "groundTexture": "",
+        "groundTexture": "textures/concrete.jpg",
         "groundSize": [
             1000,
             1000,
