@@ -9,9 +9,9 @@
     ],
     "assets": [
         {
-            "id": "muri",
-            "descr": "muri",
-            "type": "muri",
+            "id": "planimetria-casa",
+            "descr": "planimetria-casa",
+            "type": "planimetria-casa",
             "representations": [
                 {
                     "file": "muri.glb",
