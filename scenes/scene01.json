@@ -5,9 +5,6 @@
         "RepoPath": "https://marcello-mu.github.io/casaoldrado/models/"
     },
     "scene": [
-        "hdrSkyBox",
-        "letto-matrimoniale-180x200",
-        "ground",
         "armadio-camera-v01",
         "planimetria-casa",
         "testiera",
@@ -15,7 +12,8 @@
         "testiera-rovere-1",
         "testiera-rovere-2",
         "testiera-rovere-3",
-        "testiera-arancione-dx"
+        "testiera-arancione-dx",
+        "letto-matrimoniale-180x200-v2"
     ],
     "assets": [
         {
@@ -52,32 +50,6 @@
             "rotation": [
                 0,
                 -3.14159,
-                0
-            ]
-        },
-        {
-            "id": "letto-matrimoniale-180x200",
-            "descr": "Letto matrimoniale 180x200 con mantovana lino, due cuscini e coperta bianca",
-            "type": "letto-matrimoniale",
-            "representations": [
-                {
-                    "file": "letto-matrimoniale-180x200.glb",
-                    "unit": 1
-                }
-            ],
-            "position": [
-                100.25,
-                0,
-                -241.35
-            ],
-            "scale": [
-                1,
-                1,
-                1
-            ],
-            "rotation": [
-                0,
-                0,
                 0
             ]
         },
@@ -242,12 +214,29 @@
             ]
         },
         {
-            "id": "ground",
-            "type": "",
+            "id": "letto-matrimoniale-180x200-v2",
+            "descr": "Letto matrimoniale 180x200: rete nera h35 cm con 4 piedi, mantovana lino sollevata da terra, materasso+piumino 35 cm, due cuscini",
+            "type": "letto-matrimoniale",
+            "representations": [
+                {
+                    "file": "letto-matrimoniale-180x200-v2.glb",
+                    "unit": 1
+                }
+            ],
             "position": [
+                100.25,
+                0,
+                -241.35
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "rotation": [
                 0,
                 0,
-                264.2997131347656
+                0
             ]
         }
     ]

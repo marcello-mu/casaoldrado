@@ -1,60 +1,46 @@
 {
-	"cameras": [
-		{
-			"id": "camera.d1",
-			"type": "FlyCamera",
-			"position": [
-				1000,
-				1000,
-				1000
-			],
-			"rotation": [
-				0.7393058593939741,
-				-2.3841486471897286,
-				0
-			],
-			"speed": 60
-		}
-	],
-	"lights": [
-		{
-			"id": "light.d1",
-			"type": "HemisphericLight",
-			"direction": [
-				1,
-				0.3,
-				0.1
-			],
-			"intensity": 1
-		},
-		{
-			"id": "light.d2",
-			"type": "PointLight",
-			"position": [
-				0,
-				100,
-				0
-			],
-			"intensity": 1
-		}
-	],
-	"shadows": {
-		"darkness": 0.3,
-		"bias": 0.001,
-		"environmentIntensity": 0.3
-	},
-	"env": {
-        "skyboxTexture": "textures/studio.env",
-        "backgroundColor": [
-          0.2,
-          0.3,
-          0.5
-        ],
-        "groundTexture": "textures/concrete.jpg",
-        "groundSize": [
-            2000,
-            2000,
-            1
-        ]
-      }
+    "cameras": [
+        {
+            "id": "camera.d1",
+            "type": "FlyCamera",
+            "position": [
+                250,
+                165,
+                -420
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "speed": 12
+        }
+    ],
+    "lights": [
+        {
+            "id": "light.d1",
+            "type": "HemisphericLight",
+            "direction": [
+                0,
+                1,
+                0
+            ],
+            "intensity": 0.8
+        },
+        {
+            "id": "light.d2",
+            "type": "PointLight",
+            "position": [
+                250,
+                220,
+                -240
+            ],
+            "intensity": 0.6
+        }
+    ],
+    "shadows": {
+        "darkness": 0.25,
+        "bias": 0.001,
+        "environmentIntensity": 0.5
+    }
 }
