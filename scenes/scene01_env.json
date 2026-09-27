@@ -1,21 +1,30 @@
 {
     "cameras": [
-        {
-            "id": "camera.d1",
-            "type": "FlyCamera",
-            "position": [
-                250,
-                165,
-                -420
-            ],
-            "rotation": [
-                0,
-                0,
-                0
-            ],
-            "speed": 12
-        }
-    ],
+    {
+        "id": "camera.interno",
+        "type": "FlyCamera",
+        "position": [250, 165, -420],
+        "rotation": [0.05, -1.55, 0],
+        "speed": 12,
+        "fov": 1.3089969389957472
+    },
+    {
+        "id": "camera.pianta",
+        "type": "FlyCamera",
+        "position": [0, 1500, 0],
+        "rotation": [1.5707963267948966, 0, 0],
+        "speed": 80,
+        "fov": 0.9599310885968813
+    },
+    {
+        "id": "camera.assonometria",
+        "type": "FlyCamera",
+        "position": [950, 950, 950],
+        "rotation": [0.67, -2.35619449, 0],
+        "speed": 80,
+        "fov": 0.9599310885968813
+    }
+],
     "lights": [
         {
             "id": "light.d1",
