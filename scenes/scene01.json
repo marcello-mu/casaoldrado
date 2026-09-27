@@ -2,7 +2,7 @@
     "context": {
         "UnitOfMeasureScale": 0.01,
         "Zup": false,
-        "RepoPath": ""
+        "RepoPath": "https://marcello-mu.github.io/casaoldrado/models/"
     },
     "scene": [
         "planimetria-casa"
@@ -19,9 +19,9 @@
                 }
             ],
             "position": [
-                -300,
                 0,
-                -400
+                0,
+                0
             ]
         }
     ]
