@@ -15,7 +15,11 @@
         "testiera-arancione-dx",
         "letto-matrimoniale-180x200-v2",
         "comodino-chippendale-fedele",
-        "slv-kalu-2-bianca"
+        "slv-kalu-2-bianca",
+        "porta-A",
+        "porta-B",
+        "porta-C",
+        "porta-E"
     ],
     "assets": [
         {
@@ -221,7 +225,7 @@
             "type": "letto-matrimoniale",
             "representations": [
                 {
-                    "file": "letto-matrimoniale-180x200.glb",
+                    "file": "letto-matrimoniale-180x200-v2.glb",
                     "unit": 1
                 }
             ],
@@ -237,7 +241,7 @@
             ],
             "rotation": [
                 0,
-                0,
+                1.5707963268,
                 0
             ]
         },
@@ -291,6 +295,110 @@
                 0,
                 1.5707963268,
                 0
+            ]
+        },
+        {
+            "id": "porta-A",
+            "descr": "Porta interna mogano - vano A",
+            "type": "porta-interna",
+            "representations": [
+                {
+                    "file": "porta-interna-mogano-scuro-80x210.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -110.0,
+                0.0,
+                5.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                3.141592653589793,
+                0.0
+            ]
+        },
+        {
+            "id": "porta-B",
+            "descr": "Porta interna mogano - vano B",
+            "type": "porta-interna",
+            "representations": [
+                {
+                    "file": "porta-interna-mogano-scuro-80x210.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                353.0,
+                0.0,
+                -47.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                -1.5707963267948966,
+                0.0
+            ]
+        },
+        {
+            "id": "porta-C",
+            "descr": "Porta interna mogano - vano C stretto, adattata a circa 62 cm",
+            "type": "porta-interna",
+            "representations": [
+                {
+                    "file": "porta-interna-mogano-scuro-80x210.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                401.0,
+                0.0,
+                -112.0
+            ],
+            "scale": [
+                0.775,
+                1.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "id": "porta-E",
+            "descr": "Porta interna mogano - vano E",
+            "type": "porta-interna",
+            "representations": [
+                {
+                    "file": "porta-interna-mogano-scuro-80x210.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                452.0,
+                0.0,
+                -58.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                3.141592653589793,
+                0.0
             ]
         }
     ]
