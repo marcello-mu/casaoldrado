@@ -6,6 +6,7 @@
     },
     "scene": [
         "hdrSkyBox",
+        "letto-matrimoniale-180x200",
         "ground",
         "armadio-camera-v01",
         "planimetria-casa",
@@ -51,6 +52,32 @@
             "rotation": [
                 0,
                 -3.14159,
+                0
+            ]
+        },
+        {
+            "id": "letto-matrimoniale-180x200",
+            "descr": "Letto matrimoniale 180x200 con mantovana lino, due cuscini e coperta bianca",
+            "type": "letto-matrimoniale",
+            "representations": [
+                {
+                    "file": "letto-matrimoniale-180x200.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                100.25,
+                0,
+                -241.35
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "rotation": [
+                0,
+                0,
                 0
             ]
         },
