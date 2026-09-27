@@ -19,7 +19,8 @@
         "porta-A",
         "porta-B",
         "porta-C",
-        "porta-E"
+        "porta-E",
+        "soffitto-casa"
     ],
     "assets": [
         {
@@ -225,7 +226,7 @@
             "type": "letto-matrimoniale",
             "representations": [
                 {
-                    "file": "letto-matrimoniale-180x200-v2.glb",
+                    "file": "letto-matrimoniale-180x200.glb",
                     "unit": 1
                 }
             ],
@@ -319,7 +320,7 @@
             ],
             "rotation": [
                 0.0,
-                3.141592653589793,
+                0.0,
                 0.0
             ]
         },
@@ -345,7 +346,7 @@
             ],
             "rotation": [
                 0.0,
-                -1.5707963267948966,
+                1.5707963267948966,
                 0.0
             ]
         },
@@ -399,6 +400,32 @@
                 0.0,
                 3.141592653589793,
                 0.0
+            ]
+        },
+        {
+            "id": "soffitto-casa",
+            "descr": "Soffitto monofaccia visibile dall'interno e invisibile dall'alto",
+            "type": "soffitto",
+            "representations": [
+                {
+                    "file": "soffitto-casa-monofaccia.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "rotation": [
+                0,
+                0,
+                0
             ]
         }
     ]
