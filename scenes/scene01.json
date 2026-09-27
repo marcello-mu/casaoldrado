@@ -14,6 +14,7 @@
         "testiera-rovere-3",
         "testiera-arancione-dx",
         "letto-matrimoniale-180x200-v2",
+        "comodino-chippendale-fedele",
         "slv-kalu-2-bianca"
     ],
     "assets": [
@@ -236,7 +237,7 @@
             ],
             "rotation": [
                 0,
-                0,
+                1.5707963268,
                 0
             ]
         },
@@ -263,6 +264,32 @@
             "rotation": [
                 0,
                 0,
+                0
+            ]
+        },
+        {
+            "id": "comodino-chippendale-fedele",
+            "descr": "Comodino Chippendale in noce/radica sul lato finestra",
+            "type": "comodino",
+            "representations": [
+                {
+                    "file": "comodino-chippendale-fedele.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                25.0,
+                0,
+                -365.1
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "rotation": [
+                0,
+                1.5707963268,
                 0
             ]
         }
