@@ -1,28 +1,63 @@
 {
-    "context": {
-        "UnitOfMeasureScale": 0.01,
-        "Zup": false,
-        "RepoPath": "https://marcello-mu.github.io/casaoldrado/models/"
-    },
-    "scene": [
-        "planimetria-casa"
-    ],
-    "assets": [
+  "context": {
+    "UnitOfMeasureScale": 0.01,
+    "Zup": false,
+    "RepoPath": "https://marcello-mu.github.io/casaoldrado/models/"
+  },
+  "scene": [
+    "planimetria-casa",
+    "armadio-camera-v01",
+    "pannello-arancione",
+    "pannello-rovere"
+  ],
+  "assets": [
+    {
+      "id": "planimetria-casa",
+      "descr": "planimetria-casa",
+      "type": "planimetria-casa",
+      "representations": [
         {
-            "id": "planimetria-casa",
-            "descr": "planimetria-casa",
-            "type": "planimetria-casa",
-            "representations": [
-                {
-                    "file": "planimetria-casa.glb",
-                    "unit": 1
-                }
-            ],
-            "position": [
-                0,
-                0,
-                0
-            ]
+          "file": "planimetria-casa.glb",
+          "unit": 1
         }
-    ]
+      ],
+      "position": [0, 0, 0]
+    },
+    {
+      "id": "armadio-camera-v01",
+      "descr": "armadio-camera-v01",
+      "type": "armadio-camera-v01",
+      "representations": [
+        {
+          "file": "armadio-camera-v01.glb",
+          "unit": 1
+        }
+      ],
+      "position": [0, 0, 0]
+    },
+    {
+      "id": "pannello-arancione",
+      "descr": "pannello-arancione",
+      "type": "pannello-arancione",
+      "representations": [
+        {
+          "file": "pannello-arancione.glb",
+          "unit": 1
+        }
+      ],
+      "position": [250, 0, 0]
+    },
+    {
+      "id": "pannello-rovere",
+      "descr": "pannello-rovere",
+      "type": "pannello-rovere",
+      "representations": [
+        {
+          "file": "pannello-rovere.glb",
+          "unit": 1
+        }
+      ],
+      "position": [350, 0, 0]
+    }
+  ]
 }
