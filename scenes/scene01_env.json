@@ -35,7 +35,41 @@
                 220,
                 -240
             ],
-            "intensity": 0.6
+            "intensity": 0.25
+        },
+        {
+            "id": "light.kalu.down",
+            "type": "SpotLight",
+            "position": [
+                343.0,
+                198.0,
+                -248.35
+            ],
+            "direction": [
+                -0.70710678,
+                -0.70710678,
+                0
+            ],
+            "angle": 0.62831853,
+            "exponent": 2,
+            "intensity": 0.9
+        },
+        {
+            "id": "light.kalu.up",
+            "type": "SpotLight",
+            "position": [
+                343.0,
+                202.0,
+                -234.35
+            ],
+            "direction": [
+                -0.70710678,
+                0.70710678,
+                0
+            ],
+            "angle": 0.62831853,
+            "exponent": 2,
+            "intensity": 0.9
         }
     ],
     "shadows": {

@@ -13,7 +13,8 @@
         "testiera-rovere-2",
         "testiera-rovere-3",
         "testiera-arancione-dx",
-        "letto-matrimoniale-180x200-v2"
+        "letto-matrimoniale-180x200-v2",
+        "slv-kalu-2-bianca"
     ],
     "assets": [
         {
@@ -219,13 +220,39 @@
             "type": "letto-matrimoniale",
             "representations": [
                 {
-                    "file": "letto-matrimoniale-180x200-v2.glb",
+                    "file": "letto-matrimoniale-180x200.glb",
                     "unit": 1
                 }
             ],
             "position": [
                 100.25,
                 0,
+                -241.35
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "id": "slv-kalu-2-bianca",
+            "descr": "SLV KALU 2.0 bianca, doppio proiettore orientabile",
+            "type": "lampada-parete",
+            "representations": [
+                {
+                    "file": "slv-kalu-2-bianca.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                351.5,
+                200.0,
                 -241.35
             ],
             "scale": [
