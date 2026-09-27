@@ -14,7 +14,7 @@
             "type": "planimetria-casa",
             "representations": [
                 {
-                    "file": "muri.glb",
+                    "file": "planimetria-casa.glb",
                     "unit": 1
                 }
             ],
